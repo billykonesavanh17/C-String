@@ -12,12 +12,13 @@ using namespace std;
 class StringController
 {
 private:
+	int count;
 	string word;
 public:
 	StringController();
 	void setWord(string);
 	string getWord();
-
+	int getLength();
 	void start();
 };
 
