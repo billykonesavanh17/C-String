@@ -18,7 +18,7 @@ public:
 	StringController();
 	void setWord(string);
 	string getWord();
-	int getLength();
+	int getSize();
 	void start();
 };
 
